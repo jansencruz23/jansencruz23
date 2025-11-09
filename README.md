@@ -6,7 +6,7 @@ class Bio(SoftwareEngineer):
         self.name = "Jansen C. Cruz"
         self.aspiration = "AI/ML Engineer & Fullstack Developer"
         self.interests = ["Artificial Intelligence", "Machine Learning", "Data Science", "Software Engineering"]
-        self.location = "Philippines"
+        self.location = "Pampanga, Philippines"
 
 class Education(SoftwareEngineer):
     def __init__(self):
