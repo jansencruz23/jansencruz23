@@ -21,7 +21,7 @@ class CurrentlyLearning(SoftwareEngineer):
 class Skills(SoftwareEngineer):
     def __init__(self):
         self.languages = ["Python", "C#", "JavaScript", "Java", "Dart", "SQL", "HTML", "CSS"]
-        self.aiml_frameworks = ["PyTorch", "TensorFlow/Keras", "LangChain", "Scikit-learn", "Hugging Face"]
+        self.ai_ml_frameworks = ["PyTorch", "TensorFlow/Keras", "LangChain", "Scikit-learn", "Hugging Face"]
         self.web_frameworks = ["ASP.NET Core", "Entity Framework Core", "Django", "TailwindCSS"]
         self.mobile_frameworks = ["Flutter"]
         self.databases = ["MSSQL", "MySQL", "MongoDB", "Firebase"]
