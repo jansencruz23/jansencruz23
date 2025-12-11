@@ -17,7 +17,7 @@ class Education:
 
 class CurrentlyLearning:
     def __init__(self):
-        self.topics = ["Deep Learning with Python", "LangChain Ecosystem", "AI Agents", "Automation"]
+        self.topics = ["Deep Learning with Python", "LangGraph", "AI Agents", "Automation"]
 
 class Skills:
     def __init__(self):
