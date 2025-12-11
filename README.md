@@ -38,7 +38,6 @@ class JansenCruz(SoftwareEngineer):
         super().__init__()
         self.bio = Bio()
         self.education = Education()
-        self.currently_learning = CurrentlyLearning()
         self.skills = Skills()
         self.hackathons = Hackathons()
 ```
