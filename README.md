@@ -11,32 +11,27 @@ class Bio:
 class Education:
     def __init__(self):
         self.school = "Angeles University Foundation"
-        self.graduation_date = "2026"
-        self.president_lister = True
+        self.current_year = "4th year"
         self.scholarships = ['BYA Scholar', 'University Scholar']
-
-class CurrentlyLearning:
-    def __init__(self):
-        self.topics = ["Deep Learning with Python", "LangGraph", "AI Agents", "Automation"]
 
 class Skills:
     def __init__(self):
         self.languages = ["Python", "C#", "JavaScript", "Java", "Dart", "SQL", "HTML", "CSS"]
         self.ai_ml_frameworks = ["PyTorch", "TensorFlow/Keras", "LangChain", "Scikit-learn", "Hugging Face"]
-        self.web_frameworks = ["ASP.NET Core", "Entity Framework Core", "Django", "TailwindCSS"]
+        self.web_frameworks = ["ASP.NET Core", "Entity Framework Core", "Django", "React"]
         self.mobile_frameworks = ["Flutter"]
         self.databases = ["MSSQL", "MySQL", "MongoDB", "Firebase"]
         self.tools = ["Git", "Anaconda", "Jupyter", "VS Code", "Visual Studio", "Power BI"]
+        self.learning = ["Deep Learning with Python", "LangGraph", "AI Agents", "Automation"]
 
 class Hackathons:
     def __init__(self):
-        self.awards = [
-            "Champion - Beyond Limits: The AI Hack 2025 (Google Developer Groups - HAU)",
+        self.recent_awards = [
+            "Champion - Google Developer Groups - HAU's Beyond Limits: The AI Hack 2025",
             "Best Use of Gemini API - Beyond Limits: The AI Hack 2025",
             "Champion - JPCS Hackathon 2025",
             "2nd Place - JPCS Hackathon 2025",
-            "3rd Place - JPCS Hackathon 2024",
-            "2nd Place - iCode 2021-2022"]
+        ]
 
 class JansenCruz(SoftwareEngineer):
     def __init__(self):
