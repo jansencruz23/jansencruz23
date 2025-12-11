@@ -27,10 +27,10 @@ class Skills:
 class Hackathons:
     def __init__(self):
         self.recent_awards = [
-            "Champion - Google Developer Groups - HAU's Beyond Limits: The AI Hack 2025",
-            "Best Use of Gemini API - Beyond Limits: The AI Hack 2025",
-            "Champion - JPCS Hackathon 2025",
-            "2nd Place - JPCS Hackathon 2025",
+            "🏆 Champion - Google Developer Groups - HAU's Beyond Limits: The AI Hack 2025",
+            "✨ Best Use of Gemini API - Beyond Limits: The AI Hack 2025",
+            "🏆 Champion - JPCS Hackathon 2025",
+            "🥈 2nd Place - JPCS Hackathon 2025",
         ]
 
 class JansenCruz(SoftwareEngineer):
