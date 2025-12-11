@@ -18,7 +18,7 @@ class Skills:
     def __init__(self):
         self.languages = ["Python", "C#", "JavaScript", "Java", "Dart", "SQL", "HTML", "CSS"]
         self.ai_ml_frameworks = ["PyTorch", "TensorFlow/Keras", "LangChain", "Scikit-learn", "Hugging Face"]
-        self.web_frameworks = ["ASP.NET Core", "Entity Framework Core", "Django", "React"]
+        self.web_frameworks = ["ASP.NET Core", "Entity Framework Core", "Django", "MERN Stack"]
         self.mobile_frameworks = ["Flutter"]
         self.databases = ["MSSQL", "MySQL", "MongoDB", "Firebase"]
         self.tools = ["Git", "Anaconda", "Jupyter", "VS Code", "Visual Studio", "Power BI"]
