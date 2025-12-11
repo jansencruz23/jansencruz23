@@ -1,24 +1,25 @@
 ```py
 from jansencruz23 import SoftwareEngineer
 
-class Bio(SoftwareEngineer):
+class Bio:
     def __init__(self):
         self.name = "Jansen C. Cruz"
         self.aspiration = "AI/ML Engineer & Fullstack Developer"
         self.interests = ["Artificial Intelligence", "Machine Learning", "Data Science", "Software Engineering"]
         self.location = "Pampanga, Philippines"
 
-class Education(SoftwareEngineer):
+class Education:
     def __init__(self):
         self.school = "Angeles University Foundation"
         self.graduation_date = "2026"
         self.president_lister = True
+        self.scholarships = ['BYA Scholar', 'University Scholar']
 
-class CurrentlyLearning(SoftwareEngineer):
+class CurrentlyLearning:
     def __init__(self):
-        self.topics = ["Deep Learning with Python", "LangChain Ecosystem"]
+        self.topics = ["Deep Learning with Python", "LangChain Ecosystem", "AI Agents", "Automation"]
 
-class Skills(SoftwareEngineer):
+class Skills:
     def __init__(self):
         self.languages = ["Python", "C#", "JavaScript", "Java", "Dart", "SQL", "HTML", "CSS"]
         self.ai_ml_frameworks = ["PyTorch", "TensorFlow/Keras", "LangChain", "Scikit-learn", "Hugging Face"]
@@ -27,6 +28,24 @@ class Skills(SoftwareEngineer):
         self.databases = ["MSSQL", "MySQL", "MongoDB", "Firebase"]
         self.tools = ["Git", "Anaconda", "Jupyter", "VS Code", "Visual Studio", "Power BI"]
 
+class Hackathons:
+    def __init__(self):
+        self.awards = [
+            "Champion - Beyond Limits: The AI Hack 2025 (Google Developer Groups - HAU)",
+            "Best Use of Gemini API - Beyond Limits: The AI Hack 2025",
+            "Champion - JPCS Hackathon 2025",
+            "2nd Place - JPCS Hackathon 2025",
+            "3rd Place - JPCS Hackathon 2024",
+            "2nd Place - iCode 2021-2022"]
+
+class JansenCruz(SoftwareEngineer):
+    def __init__(self):
+        super().__init__()
+        self.bio = Bio()
+        self.education = Education()
+        self.currently_learning = CurrentlyLearning()
+        self.skills = Skills()
+        self.hackathons = Hackathons()
 ```
 
 |![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=jansencruz23&theme=dracula)|![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=jansencruz23&theme=dracula)|![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=jansencruz23&theme=dracula)|
