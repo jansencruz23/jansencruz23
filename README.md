@@ -31,6 +31,8 @@ class Hackathons:
             "✨ Best Use of Gemini API - Beyond Limits: The AI Hack 2025",
             "🏆 Champion - JPCS Hackathon 2025",
             "🥈 2nd Place - JPCS Hackathon 2025",
+            "🥉 3rd Place - JPCS Hackathon 2024",
+            "🥈 2nd Place - iCode Hackathon 2021-2022"
         ]
 
 class JansenCruz(SoftwareEngineer):
