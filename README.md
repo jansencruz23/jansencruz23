@@ -22,7 +22,7 @@ class Skills:
         self.mobile_frameworks = ["Flutter"]
         self.databases = ["MSSQL", "MySQL", "MongoDB", "Firebase"]
         self.tools = ["Git", "Anaconda", "Jupyter", "VS Code", "Visual Studio", "Power BI"]
-        self.learning = ["Deep Learning with Python", "LangGraph", "AI Agents", "Automation"]
+        self.learning = ["Deep Learning with Python", "LangGraph", "MCP", "AI Agents", "Automation"]
 
 class Hackathons:
     def __init__(self):
