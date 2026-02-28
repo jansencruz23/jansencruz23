@@ -4,8 +4,8 @@ from jansencruz23 import SoftwareEngineer
 class Bio:
     def __init__(self):
         self.name = "Jansen C. Cruz"
-        self.aspiration = "AI/ML Engineer & Fullstack Developer"
-        self.interests = ["Artificial Intelligence", "Machine Learning", "Data Science", "Software Engineering"]
+        self.aspiration = "AI/ML Engineer | Full-Stack & Automation Developer"
+        self.interests = ["Artificial Intelligence", "Automation", "Machine Learning", "Data Science", "Software Engineering"]
         self.location = "Pampanga, Philippines"
 
 class Education:
