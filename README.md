@@ -25,9 +25,12 @@ class Skills:
         self.tools = ["Git", "Anaconda", "Jupyter", "VS Code", "Visual Studio", "Power BI"]
         self.learning = ["Advanced Agentic Workflows", "Multi-Agent Orchestration"]
 
-class Hackathons:
+class HackathonsAndAwards:
     def __init__(self):
         self.recent_awards = [
+            "🏆 Best Research Paper - International Conference on Information Technology Education (IRCITE) 2026"
+                + "for LiPAD: License Plate Advanced Deblurrer, a Lightweight AI-Powered Philippine License Plate Deblurring",
+            "🏆 Best Presenter - IRCITE 2026 for presenting LiPAD"
             "🏆 Champion - Google Developer Groups - HAU's Beyond Limits: The AI Hack 2025",
             "✨ Best Use of Gemini API - Beyond Limits: The AI Hack 2025",
             "🏆 Champion - JPCS Hackathon 2025",
