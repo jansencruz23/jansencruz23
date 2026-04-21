@@ -1,5 +1,5 @@
 ```py
-from jansencruz23 import SoftwareEngineer
+from jansencruz23 import AIEngineer
 
 class Bio:
     def __init__(self):
