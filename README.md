@@ -39,7 +39,7 @@ class HackathonsAndAwards:
             "🥈 2nd Place - iCode Hackathon 2021-2022"
         ]
 
-class JansenCruz(SoftwareEngineer):
+class JansenCruz(AIEngineer):
     def __init__(self):
         super().__init__()
         self.bio = Bio()
