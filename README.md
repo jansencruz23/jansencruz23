@@ -11,8 +11,7 @@ class Bio:
 class Education:
     def __init__(self):
         self.school = "Angeles University Foundation"
-        self.current_year = "4th year"
-        self.scholarships = ['BYA Scholar', 'University Scholar']
+        self.achievement = "Magna Cum Laude"
 
 class Skills:
     def __init__(self):
